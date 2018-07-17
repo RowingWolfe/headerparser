@@ -6,8 +6,7 @@ const PORT = 3000;
 app.get('/', (req, res, next) => {
     res.send({
         'Test': 'Working',
-        'message': 'MY EYES! THE ROOT URL DOES NOTHING!',
-        'headerInfo': req.headers
+        'message': 'MY EYES! THE ROOT URL DOES NOTHING!'
     });
     console.log(req.headers);
 });
